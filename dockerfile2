@@ -1,9 +1,0 @@
-FROM tomcat:8-jre8
-
-#maintainer aarok1
-LABEL MAINTAINER: aarokoru@gmail.com
-
-EXPOSE 80
-COPY ./var/lib/jenkins/workspace/try-test/dockerfile2 /usr/bin/local/dockerfile2
-CMD -D FOREGROUND
-
