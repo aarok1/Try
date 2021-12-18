@@ -4,6 +4,6 @@ FROM tomcat:8-jre8
 LABEL MAINTAINER: aarokoru@gmail.com
 
 EXPOSE 80
-COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
+COPY ./var/lib/jenkins/workspace/try-test/dockerfile2 /usr/bin/local/dockerfile2
 CMD -D FOREGROUND
 
